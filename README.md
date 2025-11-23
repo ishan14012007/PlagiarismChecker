@@ -1,13 +1,11 @@
 # PlagiarismChecker
-A tool to detect plagiarism and text similarity by comparing documents against multiple sources. Helps identify copied content and provides similarity reports.
+A tool which will help you to identify whether it is copied from another file or not.
 # Project Overview 📝
-A simple Python-based plagiarism checker that compares two text files and calculates their similarity percentage using sequence matching algorithms.
+It uses difflib which is a built-in Python library for comparison . Just add the files in the same directory and on running write the file name with the extensions , wait for few seconds and done !
 # Features 🛠️
-Compares two text documents for similarity
-Provides similarity percentage (0-100%)
-Gives descriptive feedback based on similarity level
-Simple command-line interface
-Fast and lightweight
+Helps you compare two files whether copied or not 
+It will give a precise result i.e how much percent the two files are similar 
+Also gives remarks on what you should do further 
 # Technologies / Tools used
 Python 3 - Programming language
 difflib - Built-in Python library for sequence comparison
